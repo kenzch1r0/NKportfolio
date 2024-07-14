@@ -25,7 +25,7 @@
         </v-row>
         <v-row>
           <v-col>
-            <p class="sub-title">A SOFTWARE CONSULTANT<br />IN LOVE WITH CODING AND DESIGN</p>
+            <p class="sub-title">A SOFTWARE ENGINEER<br />IN LOVE WITH CODING AND DESIGN</p>
           </v-col>
         </v-row>
         <v-row>

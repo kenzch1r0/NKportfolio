@@ -1,7 +1,7 @@
 <template>
     <v-row dense>
     <v-col sm="12" :md=event.col :class="'layer-' + layerClass" v-for="(event, e) in data" :key="e">
-      <v-card data-aos="fade-up" :data-aos-duration="(e+2)*200" class="inline"  min-height="195" min-width="200" outlined>
+      <v-card data-aos="fade-up" :data-aos-duration="(e+2)*200" class="block"  min-height="195" min-width="200" outlined>
         <v-list-item three-line>
           <v-list-item-content>
             <div class="headskill"><p><bold>{{event.topic}}</bold></p> </div>
@@ -41,6 +41,8 @@ export default {
     font-size:22px;
     font-weight: 900;
   }
-
+.headline {
+    white-space: normal !important;
+}
 </style>
 
