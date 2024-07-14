@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-			<div class="" data-aos="fade-right">
+			<div class="topic-about-me" data-aos="fade-right">
         <h2>ABOUT ME</h2>
         <br/>
       <div>
@@ -36,8 +36,8 @@ export default {
 </script>
 
 <style>
-.topic{
-padding: 0.25rem;
+.topic-about-me{
+padding: 2em;
 font-weight: 900 !important;
 color: var(--v-title-base);
 }
